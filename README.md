@@ -46,8 +46,8 @@ Obtain all solutions saved on cache memory.
 **Response Parameters**
 
 |          Name | Required |  Type   |   Description |
-| -------------:|:--------:|:-------: --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|`solution` | required | List  | Contains the number of steps generated for the best solution                                                     |
+| -------------:|:--------:|:-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|`solution` | required | List  | Contains the number of steps generated for the best solution |
 |`steps` | required | List  | Information of each iteration executed on program to optimize outcome solution
 |`step` | required | int  | number of step
 |`bucket_x` | required | int  | outcome gallons for bucket X
@@ -113,7 +113,7 @@ Send a JSON object that contains the capacity for jugs X and Y and the desired o
 **Input Parameters**
 
 |          Name | Required |  Type   |   Description |
-| -------------:|:--------:|:-------: --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------:|:--------:|:-------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |`x_capacity` | required | int  | Capacity of gallons for jug X                                                     |
 |`y_capacity` | required | int  | Capacity of gallons for jug Y
 |`z_amount_wanted` | required | int  | Reference for outcome gallons for process

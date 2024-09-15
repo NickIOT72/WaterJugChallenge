@@ -132,7 +132,7 @@ Send a JSON object that contains the capacity for jugs X and Y and the desired o
 **Response Parameters**
 
 |          Name | Required |  Type   |   Description |
-| -------------:|:--------:|:-------:| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |                                                   |
+| -------------:|:--------:|:-------:| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |                                                   
 |`steps` | required | List  | Information of each iteration executed on program to optimize outcome solution|
 |`step` | required | int  | number of step|
 |`bucket_x` | required | int  | outcome gallons for bucket X|

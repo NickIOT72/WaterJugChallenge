@@ -48,18 +48,18 @@ Obtain all solutions saved on cache memory.
 |          Name | Required |  Type   |   Description |
 | -------------:|:--------:|:-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |`solution` | required | List  | Contains the number of steps generated for the best solution |
-|`steps` | required | List  | Information of each iteration executed on program to optimize outcome solution
-|`step` | required | int  | number of step
-|`bucket_x` | required | int  | outcome gallons for bucket X
-|`bucket_y` | required | int  | outcome gallons for bucket Y
-|`action_msg` | required | string  | Shows the information about the action executed for the step ( Fill, Empty, and Transfer (between the two jugs) )
-|`status` | required | string  | Verify if solution was found or not
-|`bucket` | required | List  | Input information used to generate solution
-|`x_capacity` | required | int  | capacity 
-|`bucket` | required | List  | Input information used to generate solution
+|`steps` | required | List  | Information of each iteration executed on program to optimize outcome solution|
+|`step` | required | int  | number of step|
+|`bucket_x` | required | int  | outcome gallons for bucket X|
+|`bucket_y` | required | int  | outcome gallons for bucket Y|
+|`action_msg` | required | string  | Shows the information about the action executed for the step ( Fill, Empty, and Transfer (between the two jugs) )|
+|`status` | required | string  | Verify if solution was found or not|
+|`bucket` | required | List  | Input information used to generate solution|
+|`x_capacity` | required | int  | capacity |
+|`bucket` | required | List  | Input information used to generate solution|
 |`x_capacity` | required | int  | Capacity of gallons for jug X                                                     |
-|`y_capacity` | required | int  | Capacity of gallons for jug Y
-|`z_amount_wanted` | required | int  | Reference for outcome gallons for process
+|`y_capacity` | required | int  | Capacity of gallons for jug Y|
+|`z_amount_wanted` | required | int  | Reference for outcome gallons for process|
 
 **Response JSON format**
 
@@ -115,8 +115,8 @@ Send a JSON object that contains the capacity for jugs X and Y and the desired o
 |          Name | Required |  Type   |   Description |
 | -------------:|:--------:|:-------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |`x_capacity` | required | int  | Capacity of gallons for jug X                                                     |
-|`y_capacity` | required | int  | Capacity of gallons for jug Y
-|`z_amount_wanted` | required | int  | Reference for outcome gallons for process
+|`y_capacity` | required | int  | Capacity of gallons for jug Y|
+|`z_amount_wanted` | required | int  | Reference for outcome gallons for process|
 
 **Input JSON format**
 
@@ -133,12 +133,12 @@ Send a JSON object that contains the capacity for jugs X and Y and the desired o
 
 |          Name | Required |  Type   |   Description |
 | -------------:|:--------:|:-------:| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |                                                   |
-|`steps` | required | List  | Information of each iteration executed on program to optimize outcome solution
-|`step` | required | int  | number of step
-|`bucket_x` | required | int  | outcome gallons for bucket X
-|`bucket_y` | required | int  | outcome gallons for bucket Y
-|`action_msg` | required | string  | Shows the information about the action executed for the step ( Fill, Empty, and Transfer (between the two jugs) )
-|`status` | required | string  | Verify if solution was found or not
+|`steps` | required | List  | Information of each iteration executed on program to optimize outcome solution|
+|`step` | required | int  | number of step|
+|`bucket_x` | required | int  | outcome gallons for bucket X|
+|`bucket_y` | required | int  | outcome gallons for bucket Y|
+|`action_msg` | required | string  | Shows the information about the action executed for the step ( Fill, Empty, and Transfer (between the two jugs) )|
+|`status` | required | string  | Verify if solution was found or not|
 
 **Response JSON format**
 
